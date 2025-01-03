@@ -1,0 +1,164 @@
+header{
+    margin: 20px;
+    padding: 20px;
+   background: linear-gradient(to right,#020024,#090979);
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.links{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+}
+.links a:hover{
+    text-decoration: underline;
+    background-color:black;
+    padding: 10px;
+    box-shadow: #020024;
+    border: 1px solid transparent;
+    border-radius: 10%;
+}
+.me{
+    margin:  20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    
+    
+}
+
+.content h2{
+    color:#090979;
+    font-size: 2rem;
+    padding-left: 30px;
+    text-align: center;
+   
+}
+.content p{
+    
+    color:white;
+    font-size: 1.25rem;
+    padding: 30px;
+    background:linear-gradient(to right,#020024,#090979);
+    border-radius: 2%;
+
+    
+    
+   
+    
+}
+.image img{
+    border-radius: 100%;
+    border: 2px solid black;
+    
+}
+ h2{
+    color:#090979;
+    font-size: 2rem;
+    padding-left: 30px;
+    text-align: center;
+
+}
+.skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills li {
+    background:linear-gradient(to right,#020024,#090979);
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.projects  {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    align-items: center;
+    margin-bottom: 20px;
+}
+h3{
+    color:#090979;
+    font-size: 1.5rem;
+    padding-left: 30px;
+    text-align: center;
+}
+.project p{
+    font-size: 1.25rem;
+    color: white;
+    background:linear-gradient(to right,#020024,#090979);
+    padding: 20px 30px;
+    border-radius: 2%;
+    width: 400px;
+    height: 200px;
+}
+
+.projects img {
+    max-width: 100%;
+    border-radius: 5px;
+    border: solid 1px #090979;
+}
+
+.projects a {
+    margin-top: 10px;
+    text-decoration: none;
+    color:white;
+    background:linear-gradient(to right,#020024,#090979);
+    padding:5px;
+    border-radius: 50px;
+    
+}
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.contact button{
+    padding: 10px;
+    border: none;
+    width: 100px;
+    color: white;
+    background:linear-gradient(to right,#020024,#090979);
+
+}
+.contact input, .contact textarea {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #090979;
+    border-radius: 5px;
+}
+footer{
+    padding: 10px;
+    color: white;
+    background:linear-gradient(to right,#020024,#090979);
+    margin-top: 10px;
+    text-align: center;
+
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+@media screen and (max-width:600px){
+    .links{
+        display: none;
+    }
+   
+}
